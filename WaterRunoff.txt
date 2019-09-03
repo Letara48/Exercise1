@@ -1,0 +1,30 @@
+Pseudocode
+Get roof length and width in inches
+Multiply roof length by 12
+Multiply roof width by 12
+Multiply roof dimensionsby rainfall height in cubic inches
+Divide it by 231 to get runoff in gallons
+
+
+Algorithm
+
+Declare Integar Roof Length
+Declare Integar Roof Width
+Declare R_l
+Declare R_w
+Declare Integar rain
+Declare Integar runoff
+
+Prompt user for Roof Length and Roof Width dimensions in feet 
+Prompt user for rain inches
+
+Calculate R_l = Roof Length X 12
+Calculate R_w = Roof Width X 12
+
+Get R_l and R_w
+
+Multiply R_l X R_w = lw
+Divide lw by 231 = runoff
+
+Display runoff
+
